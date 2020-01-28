@@ -1,0 +1,2 @@
+bir.cimatec4_map:gazebo_senai:scripts:velodyne_simulator/velodyne_description:velodyne_simulator/velodyne_gazebo_plugins:velodyne_simulator/velodyne_simulator
+-DCATKIN_DEVEL_PREFIX=/home/jess/challenger_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jess/challenger_ws/install -G Unix Makefiles

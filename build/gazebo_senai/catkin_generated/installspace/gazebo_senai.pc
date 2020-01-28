@@ -1,0 +1,8 @@
+prefix=/home/jess/challenger_ws/install
+
+Name: gazebo_senai
+Description: Description of gazebo_senai
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
