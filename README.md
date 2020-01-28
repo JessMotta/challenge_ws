@@ -1,5 +1,7 @@
 # **Steps for to do before run the simulation:**
 
+This project was make in Ros Melodic.
+
 -- Install the simulator Husky robot of clearpath: $ 'sudo apt-get install ros-melodic-husky-simulator' (attencion for your Ros 
 version) this will be installed on Ros folder. 
 -- And install the Husky desktop:  $ 'sudo apt-get install ros-indigo-husky-desktop'
