@@ -67,14 +67,14 @@ set(gazebo_senai_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gazebo_senai_SOURCE_PREFIX /home/jess/challenger_ws/src/gazebo_senai)
-  set(gazebo_senai_DEVEL_PREFIX /home/jess/challenger_ws/devel)
+  set(gazebo_senai_SOURCE_PREFIX /home/jess/challenge_ws/src/gazebo_senai)
+  set(gazebo_senai_DEVEL_PREFIX /home/jess/challenge_ws/devel)
   set(gazebo_senai_INSTALL_PREFIX "")
   set(gazebo_senai_PREFIX ${gazebo_senai_DEVEL_PREFIX})
 else()
   set(gazebo_senai_SOURCE_PREFIX "")
   set(gazebo_senai_DEVEL_PREFIX "")
-  set(gazebo_senai_INSTALL_PREFIX /home/jess/challenger_ws/install)
+  set(gazebo_senai_INSTALL_PREFIX /home/jess/challenge_ws/install)
   set(gazebo_senai_PREFIX ${gazebo_senai_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jess/challenger_ws/install/lib;/home/jess/challenger_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/jess/challenge_ws/install/lib;/home/jess/challenge_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

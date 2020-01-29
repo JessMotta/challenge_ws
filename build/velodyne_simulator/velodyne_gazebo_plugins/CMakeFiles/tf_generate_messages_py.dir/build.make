@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jess/challenger_ws/src
+CMAKE_SOURCE_DIR = /home/jess/challenge_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jess/challenger_ws/build
+CMAKE_BINARY_DIR = /home/jess/challenge_ws/build
 
 # Utility rule file for tf_generate_messages_py.
 
@@ -63,10 +63,10 @@ velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.di
 .PHONY : velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/build
 
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/clean:
-	cd /home/jess/challenger_ws/build/velodyne_simulator/velodyne_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/jess/challenge_ws/build/velodyne_simulator/velodyne_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/clean
 
 velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/jess/challenger_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jess/challenger_ws/src /home/jess/challenger_ws/src/velodyne_simulator/velodyne_gazebo_plugins /home/jess/challenger_ws/build /home/jess/challenger_ws/build/velodyne_simulator/velodyne_gazebo_plugins /home/jess/challenger_ws/build/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jess/challenge_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jess/challenge_ws/src /home/jess/challenge_ws/src/velodyne_simulator/velodyne_gazebo_plugins /home/jess/challenge_ws/build /home/jess/challenge_ws/build/velodyne_simulator/velodyne_gazebo_plugins /home/jess/challenge_ws/build/velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : velodyne_simulator/velodyne_gazebo_plugins/CMakeFiles/tf_generate_messages_py.dir/depend
 

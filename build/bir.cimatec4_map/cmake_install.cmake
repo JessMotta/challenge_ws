@@ -1,8 +1,8 @@
-# Install script for directory: /home/jess/challenger_ws/src/bir.cimatec4_map
+# Install script for directory: /home/jess/challenge_ws/src/bir.cimatec4_map
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jess/challenger_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jess/challenge_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
