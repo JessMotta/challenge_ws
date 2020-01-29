@@ -23,7 +23,6 @@ Make this changes:
 -- Go to folder navigation_2d --> nav2d_karto --> OpenKarto --> source --> OpenKarto --> Sensor.h
 In line 430 delete +1 and save
 
--- Go to folder nav2d_tutorials --> copy the folder param to inside gazebo_senai
 
 
 
