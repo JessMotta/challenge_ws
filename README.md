@@ -12,6 +12,23 @@ version) this will be installed on Ros folder.
 
 [Senai Cimatec 4 Map](https://github.com/Brazilian-Institute-of-Robotics/bir.cimatec4_map.git)
 
+[Point Cloud to Laser Scan] (https://github.com/ros-perception/pointcloud_to_laserscan.git)
+
+[Frontier Exploration] (https://github.com/paulbovbel/frontier_exploration.git)
+
+[Navigation 2D] (https://github.com/skasperski/navigation_2d.git)
+
+Make this changes:
+
+-- Go to folder navigation_2d --> nav2d_karto --> OpenKarto --> source --> OpenKarto --> Sensor.h
+In line 430 delete +1 and save
+
+-- Go to folder nav2d_tutorials --> copy the folder param to inside gazebo_senai
+
+
+
+
+
 
 
 
