@@ -1,4 +1,4 @@
-prefix=/home/jess/challenger_ws/devel
+prefix=/home/jess/challenge_ws/devel
 
 Name: scripts
 Description: Description of scripts

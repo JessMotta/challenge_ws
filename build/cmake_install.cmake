@@ -1,8 +1,8 @@
-# Install script for directory: /home/jess/challenger_ws/src
+# Install script for directory: /home/jess/challenge_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jess/challenger_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jess/challenge_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,94 +49,109 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jess/challenger_ws/install/_setup_util.py")
+   "/home/jess/challenge_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jess/challenger_ws/install" TYPE PROGRAM FILES "/home/jess/challenger_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/jess/challenge_ws/install" TYPE PROGRAM FILES "/home/jess/challenge_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jess/challenger_ws/install/env.sh")
+   "/home/jess/challenge_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jess/challenger_ws/install" TYPE PROGRAM FILES "/home/jess/challenger_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/jess/challenge_ws/install" TYPE PROGRAM FILES "/home/jess/challenge_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jess/challenger_ws/install/setup.bash;/home/jess/challenger_ws/install/local_setup.bash")
+   "/home/jess/challenge_ws/install/setup.bash;/home/jess/challenge_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jess/challenger_ws/install" TYPE FILE FILES
-    "/home/jess/challenger_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/jess/challenger_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/jess/challenge_ws/install" TYPE FILE FILES
+    "/home/jess/challenge_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/jess/challenge_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jess/challenger_ws/install/setup.sh;/home/jess/challenger_ws/install/local_setup.sh")
+   "/home/jess/challenge_ws/install/setup.sh;/home/jess/challenge_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jess/challenger_ws/install" TYPE FILE FILES
-    "/home/jess/challenger_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/jess/challenger_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/jess/challenge_ws/install" TYPE FILE FILES
+    "/home/jess/challenge_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/jess/challenge_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jess/challenger_ws/install/setup.zsh;/home/jess/challenger_ws/install/local_setup.zsh")
+   "/home/jess/challenge_ws/install/setup.zsh;/home/jess/challenge_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jess/challenger_ws/install" TYPE FILE FILES
-    "/home/jess/challenger_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/jess/challenger_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/jess/challenge_ws/install" TYPE FILE FILES
+    "/home/jess/challenge_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/jess/challenge_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jess/challenger_ws/install/.rosinstall")
+   "/home/jess/challenge_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jess/challenger_ws/install" TYPE FILE FILES "/home/jess/challenger_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/jess/challenge_ws/install" TYPE FILE FILES "/home/jess/challenge_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jess/challenger_ws/build/gtest/cmake_install.cmake")
-  include("/home/jess/challenger_ws/build/bir.cimatec4_map/cmake_install.cmake")
-  include("/home/jess/challenger_ws/build/gazebo_senai/cmake_install.cmake")
-  include("/home/jess/challenger_ws/build/velodyne_simulator/velodyne_description/cmake_install.cmake")
-  include("/home/jess/challenger_ws/build/velodyne_simulator/velodyne_simulator/cmake_install.cmake")
-  include("/home/jess/challenger_ws/build/scripts/cmake_install.cmake")
-  include("/home/jess/challenger_ws/build/velodyne_simulator/velodyne_gazebo_plugins/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/gtest/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/bir.cimatec4_map/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/frontier_exploration/exploration/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/gazebo_senai/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_tutorials/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/frontier_exploration/exploration_msgs/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/velodyne_simulator/velodyne_description/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/velodyne_simulator/velodyne_simulator/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/scripts/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_msgs/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_localizer/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_karto/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/pointcloud_to_laserscan/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/velodyne_simulator/velodyne_gazebo_plugins/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_operator/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_navigator/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_exploration/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/navigation_2d/nav2d_remote/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/frontier_exploration/polygon_layer/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/frontier_exploration/exploration_server/cmake_install.cmake")
+  include("/home/jess/challenge_ws/build/frontier_exploration/frontier_exploration/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +163,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jess/challenger_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jess/challenge_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jess/challenger_ws/src/scripts
+# Install script for directory: /home/jess/challenge_ws/src/scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jess/challenger_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jess/challenge_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jess/challenger_ws/build/scripts/catkin_generated/installspace/scripts.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jess/challenge_ws/build/scripts/catkin_generated/installspace/scripts.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scripts/cmake" TYPE FILE FILES
-    "/home/jess/challenger_ws/build/scripts/catkin_generated/installspace/scriptsConfig.cmake"
-    "/home/jess/challenger_ws/build/scripts/catkin_generated/installspace/scriptsConfig-version.cmake"
+    "/home/jess/challenge_ws/build/scripts/catkin_generated/installspace/scriptsConfig.cmake"
+    "/home/jess/challenge_ws/build/scripts/catkin_generated/installspace/scriptsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scripts" TYPE FILE FILES "/home/jess/challenger_ws/src/scripts/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/scripts" TYPE FILE FILES "/home/jess/challenge_ws/src/scripts/package.xml")
 endif()
 

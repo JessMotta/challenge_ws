@@ -1,4 +1,4 @@
-prefix=/home/jess/challenger_ws/install
+prefix=/home/jess/challenge_ws/install
 
 Name: velodyne_gazebo_plugins
 Description: Description of velodyne_gazebo_plugins

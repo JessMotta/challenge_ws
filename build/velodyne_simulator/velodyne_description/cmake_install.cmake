@@ -1,8 +1,8 @@
-# Install script for directory: /home/jess/challenger_ws/src/velodyne_simulator/velodyne_description
+# Install script for directory: /home/jess/challenge_ws/src/velodyne_simulator/velodyne_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jess/challenger_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jess/challenge_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,27 +38,27 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jess/challenger_ws/build/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jess/challenge_ws/build/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description/cmake" TYPE FILE FILES
-    "/home/jess/challenger_ws/build/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig.cmake"
-    "/home/jess/challenger_ws/build/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig-version.cmake"
+    "/home/jess/challenge_ws/build/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig.cmake"
+    "/home/jess/challenge_ws/build/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE FILE FILES "/home/jess/challenger_ws/src/velodyne_simulator/velodyne_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE FILE FILES "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE DIRECTORY FILES
-    "/home/jess/challenger_ws/src/velodyne_simulator/velodyne_description/launch"
-    "/home/jess/challenger_ws/src/velodyne_simulator/velodyne_description/meshes"
-    "/home/jess/challenger_ws/src/velodyne_simulator/velodyne_description/rviz"
-    "/home/jess/challenger_ws/src/velodyne_simulator/velodyne_description/urdf"
-    "/home/jess/challenger_ws/src/velodyne_simulator/velodyne_description/world"
+    "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_description/launch"
+    "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_description/meshes"
+    "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_description/rviz"
+    "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_description/urdf"
+    "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_description/world"
     )
 endif()
 

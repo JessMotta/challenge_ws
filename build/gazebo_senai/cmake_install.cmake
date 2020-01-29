@@ -1,8 +1,8 @@
-# Install script for directory: /home/jess/challenger_ws/src/gazebo_senai
+# Install script for directory: /home/jess/challenge_ws/src/gazebo_senai
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jess/challenger_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/jess/challenge_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jess/challenger_ws/build/gazebo_senai/catkin_generated/installspace/gazebo_senai.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jess/challenge_ws/build/gazebo_senai/catkin_generated/installspace/gazebo_senai.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_senai/cmake" TYPE FILE FILES
-    "/home/jess/challenger_ws/build/gazebo_senai/catkin_generated/installspace/gazebo_senaiConfig.cmake"
-    "/home/jess/challenger_ws/build/gazebo_senai/catkin_generated/installspace/gazebo_senaiConfig-version.cmake"
+    "/home/jess/challenge_ws/build/gazebo_senai/catkin_generated/installspace/gazebo_senaiConfig.cmake"
+    "/home/jess/challenge_ws/build/gazebo_senai/catkin_generated/installspace/gazebo_senaiConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_senai" TYPE FILE FILES "/home/jess/challenger_ws/src/gazebo_senai/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_senai" TYPE FILE FILES "/home/jess/challenge_ws/src/gazebo_senai/package.xml")
 endif()
 

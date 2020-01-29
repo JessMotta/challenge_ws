@@ -1,4 +1,4 @@
-prefix=/home/jess/challenger_ws/devel
+prefix=/home/jess/challenge_ws/devel
 
 Name: gazebo_senai
 Description: Description of gazebo_senai
