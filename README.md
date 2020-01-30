@@ -26,15 +26,15 @@ version) this will be installed on Ros folder:
 
 * Clone this repository to your workspace inside src folder: 
 
-[Velodyne VLP-16](https://bitbucket.org/DataspeedInc/velodyne_simulator.git)
+* [Velodyne VLP-16](https://bitbucket.org/DataspeedInc/velodyne_simulator.git)
 
-[Senai Cimatec 4 Map](https://github.com/Brazilian-Institute-of-Robotics/bir.cimatec4_map.git)
+* [Senai Cimatec 4 Map](https://github.com/Brazilian-Institute-of-Robotics/bir.cimatec4_map.git)
 
-[Point Cloud to Laser Scan](https://github.com/ros-perception/pointcloud_to_laserscan.git)
+* [Point Cloud to Laser Scan](https://github.com/ros-perception/pointcloud_to_laserscan.git)
 
-[Frontier Exploration](https://github.com/paulbovbel/frontier_exploration.git)
+* [Frontier Exploration](https://github.com/paulbovbel/frontier_exploration.git)
 
-[Navigation 2D](https://github.com/skasperski/navigation_2d.git)
+* [Navigation 2D](https://github.com/skasperski/navigation_2d.git)
 
 Make this changes:
 
