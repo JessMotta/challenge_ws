@@ -1,9 +1,16 @@
-# **Requirements**
+# **Project** :robot: :wolf: :dart: :octocat:
 
-* Python
-* Ros
-* Gazebo
-* OpenCv
+This project was make to autonomous navigation for Husky Clearpath simulated in Gazebo to found an yellow ball.
+
+
+
+# **Requirements**
+This requirements are the minimal to execute this package:
+
+* Python 2.7
+* Ros Melodic
+* Gazebo 9
+* OpenCv 3.2
 
 
 
@@ -20,9 +27,9 @@ This project was make in Ros Melodic.
 * Install the simulator Husky robot of clearpath (attencion for your Ros 
 version) this will be installed on Ros folder:
 
-`$ 'sudo apt-get install ros-melodic-husky-simulator` 
+`$ sudo apt-get install ros-melodic-husky-simulator` 
 
-* And install the Husky desktop:  `$ 'sudo apt-get install ros-indigo-husky-desktop'`
+* And install the Husky desktop:  `$ sudo apt-get install ros-indigo-husky-desktop'`
 
 * Clone this repository to your workspace inside src folder: 
 
@@ -50,6 +57,18 @@ Make this changes:
   <li>OpenKarto</li> 
   <li> Open in Vscode or any other: Sensor.h: change the line 430 delete +1 and save </li>
 </ol>
+
+
+# **Order to Execute the Launchs:**
+
+* `$ roslaunch gazebo_senai gazebo.launch`
+
+* `$ roslaunch gazebo_senai rviz.launch`
+
+* `$ roslaunch gazebo_senai exploration.launch`
+
+
+
 
 
 
