@@ -36,10 +36,20 @@ version) this will be installed on Ros folder:
 
 * [Navigation 2D](https://github.com/skasperski/navigation_2d.git)
 
+
+![](/home/jess/challenge_ws/src/bir.cimatec4_map/doc/cimatec_gazebo.png)
+
 Make this changes:
 
--- Go to folder navigation_2d --> nav2d_karto --> OpenKarto --> source --> OpenKarto --> Sensor.h
-In line 430 delete +1 and save
+* Go to:
+<ol>
+  <li>folder navigation_2d </li> 
+  <li>nav2d_karto </li> 
+  <li>OpenKarto,/li> 
+  <li>source </li> 
+  <li>OpenKarto</li> 
+  <li> Open in Vscode or any other: Sensor.h: change the line 430 delete +1 and save </li>
+</ol>
 
 
 
