@@ -52,7 +52,7 @@ Make this changes:
 <ol>
   <li>folder navigation_2d </li> 
   <li>nav2d_karto </li> 
-  <li>OpenKarto,/li> 
+  <li>OpenKarto </li> 
   <li>source </li> 
   <li>OpenKarto</li> 
   <li> Open in Vscode or any other: Sensor.h: change the line 430 delete +1 and save </li>
