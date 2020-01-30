@@ -36,8 +36,8 @@ version) this will be installed on Ros folder:
 
 * [Navigation 2D](https://github.com/skasperski/navigation_2d.git)
 
-
-![](/home/jess/challenge_ws/src/bir.cimatec4_map/doc/cimatec_gazebo.png)
+![cimatec_gazebo](https://user-images.githubusercontent.com/30941796/73447951-95e3f780-433e-11ea-8082-63e399cf9e94.png)
+Attencion: This map was made by Azihel, Pedro Paulo and Jean Paulo.
 
 Make this changes:
 
