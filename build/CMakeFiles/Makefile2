@@ -778,11 +778,11 @@ clean: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messag
 # Target rules for target frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir
 
 # All Build rule for target.
-frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_eus.dir/all
 frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_cpp.dir/all
 frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_lisp.dir/all
 frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_nodejs.dir/all
 frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_py.dir/all
+frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/build.make frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/depend
 	$(MAKE) -f frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/build.make frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target exploration_msgs_generate_messages"
@@ -1849,11 +1849,11 @@ clean: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_genpy.dir/clean
 # Target rules for target navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_LocalizedScan.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_RobotPose.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=54 "Built target nav2d_msgs_generate_messages_py"
@@ -1990,11 +1990,11 @@ clean: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.
 # Target rules for target navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_LocalizedScan.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_RobotPose.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=53 "Built target nav2d_msgs_generate_messages_lisp"
@@ -2090,11 +2090,11 @@ clean: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 # Target rules for target navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_LocalizedScan.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_RobotPose.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=52 "Built target nav2d_msgs_generate_messages_cpp"
@@ -2158,11 +2158,11 @@ clean: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_gencpp.dir/clean
 # Target rules for target navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_LocalizedScan.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_RobotPose.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target nav2d_msgs_generate_messages_eus"
@@ -2354,11 +2354,11 @@ clean: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_d
 # Target rules for target navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_LocalizedScan.dir/all
 navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/_nav2d_msgs_generate_messages_check_deps_RobotPose.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/build.make navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target nav2d_msgs_generate_messages_nodejs"
@@ -3850,8 +3850,8 @@ pointcloud_to_laserscan/preinstall:
 # Target rules for target pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir
 
 # All Build rule for target.
-pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/all: CMakeFiles/tests.dir/all
 pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/all: pointcloud_to_laserscan/CMakeFiles/clean_test_results_pointcloud_to_laserscan.dir/all
+pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/build.make pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/depend
 	$(MAKE) -f pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/build.make pointcloud_to_laserscan/CMakeFiles/_run_tests_pointcloud_to_laserscan_roslint_package.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target _run_tests_pointcloud_to_laserscan_roslint_package"
@@ -5840,21 +5840,6 @@ clean: navigation_2d/nav2d_operator/CMakeFiles/nav2d_operator_generate_messages.
 # Target rules for target navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
@@ -5913,6 +5898,21 @@ navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav
 navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav2d_operator/CMakeFiles/nav2d_operator_generate_messages_cpp.dir/all
 navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/build.make navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/build.make navigation_2d/nav2d_operator/CMakeFiles/RobotOperator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=12 "Built target RobotOperator"
@@ -6435,21 +6435,6 @@ navigation_2d/nav2d_navigator/preinstall:
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -6519,6 +6504,21 @@ navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/
 navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/nav2d_operator_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target localize_client"
@@ -6555,21 +6555,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/localize_client.dir/clean
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -6641,6 +6626,21 @@ navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_
 navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/MapInflationTool.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/navigator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=95 "Built target navigator"
@@ -6805,21 +6805,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -6889,6 +6874,21 @@ navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/n
 navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/nav2d_operator_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/get_map_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=45 "Built target get_map_client"
@@ -7190,21 +7190,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -7274,6 +7259,21 @@ navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/n
 navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/nav2d_operator_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/explore_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=30 "Built target explore_client"
@@ -7438,21 +7438,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -7522,6 +7507,21 @@ navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/
 navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/nav2d_operator_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=99 "Built target set_goal_client"
@@ -7558,8 +7558,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/set_goal_client.dir/clean
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DGoal.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_GetFirstMapActionResult.dir/all
@@ -7588,6 +7586,8 @@ navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.di
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_LocalizeAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreActionResult.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DFeedback.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=86,87,88,89,90,91,92 "Built target nav2d_navigator_generate_messages_py"
@@ -7848,8 +7848,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DGoal.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_GetFirstMapActionResult.dir/all
@@ -7878,6 +7876,8 @@ navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_LocalizeAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreActionResult.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DFeedback.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=71,72,73,74,75,76,77 "Built target nav2d_navigator_generate_messages_lisp"
@@ -7941,8 +7941,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DGoal.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_GetFirstMapActionResult.dir/all
@@ -7971,6 +7969,8 @@ navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodej
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_LocalizeAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreActionResult.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DFeedback.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_nodejs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=78,79,80,81,82,83,84,85 "Built target nav2d_navigator_generate_messages_nodejs"
@@ -8002,21 +8002,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_message
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -8087,6 +8072,21 @@ navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/n
 navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/nav2d_operator/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/MapInflationTool.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target RobotNavigator"
@@ -8347,8 +8347,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DGoal.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_GetFirstMapActionResult.dir/all
@@ -8377,6 +8375,8 @@ navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.d
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_LocalizeAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreActionResult.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DFeedback.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70 "Built target nav2d_navigator_generate_messages_eus"
@@ -8440,8 +8440,6 @@ clean: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messag
 # Target rules for target navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DGoal.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_GetFirstMapActionResult.dir/all
@@ -8470,6 +8468,8 @@ navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.d
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_LocalizeAction.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_ExploreActionResult.dir/all
 navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/_nav2d_navigator_generate_messages_check_deps_MoveToPosition2DFeedback.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/build.make navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=55,56,57,58,59,60,61,62 "Built target nav2d_navigator_generate_messages_cpp"
@@ -8615,21 +8615,6 @@ navigation_2d/nav2d_exploration/preinstall:
 # Target rules for target navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -8705,6 +8690,21 @@ navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigatio
 navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all
 navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all
 navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/build.make navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/build.make navigation_2d/nav2d_exploration/CMakeFiles/ExplorationPlugins.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=1 "Built target ExplorationPlugins"
@@ -8761,22 +8761,6 @@ navigation_2d/nav2d_remote/preinstall:
 # Target rules for target navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration/CMakeFiles/_catkin_empty_exported_target.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -8852,6 +8836,22 @@ navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_navig
 navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration/CMakeFiles/_catkin_empty_exported_target.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/build.make navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/build.make navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=100 "Built target sim_joy"
@@ -8888,22 +8888,6 @@ clean: navigation_2d/nav2d_remote/CMakeFiles/sim_joy.dir/clean
 # Target rules for target navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir
 
 # All Build rule for target.
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration/CMakeFiles/_catkin_empty_exported_target.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/nav2d_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -8979,6 +8963,22 @@ navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_na
 navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/RobotNavigator.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_eus.dir/all
 navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: navigation_2d/nav2d_navigator/CMakeFiles/nav2d_navigator_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration/CMakeFiles/_catkin_empty_exported_target.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/build.make navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/depend
 	$(MAKE) -f navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/build.make navigation_2d/nav2d_remote/CMakeFiles/remote_joy.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target remote_joy"
@@ -9041,8 +9041,8 @@ frontier_exploration/polygon_layer/preinstall:
 # Target rules for target frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir
 
 # All Build rule for target.
-frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/all: CMakeFiles/tests.dir/all
 frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/all: frontier_exploration/polygon_layer/CMakeFiles/clean_test_results_polygon_layer.dir/all
+frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/build.make frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/depend
 	$(MAKE) -f frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/build.make frontier_exploration/polygon_layer/CMakeFiles/_run_tests_polygon_layer_roslint_package.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target _run_tests_polygon_layer_roslint_package"
@@ -9904,8 +9904,8 @@ clean: frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration
 # Target rules for target frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir
 
 # All Build rule for target.
-frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/all: CMakeFiles/tests.dir/all
 frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/all: frontier_exploration/exploration_server/CMakeFiles/clean_test_results_exploration_server.dir/all
+frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/build.make frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/depend
 	$(MAKE) -f frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/build.make frontier_exploration/exploration_server/CMakeFiles/_run_tests_exploration_server_roslint_package.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num= "Built target _run_tests_exploration_server_roslint_package"
@@ -10058,9 +10058,6 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: navigation_2d/nav2d_karto/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionFeedback.dir/all
@@ -10068,6 +10065,9 @@ frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_genera
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_Frontier.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionGoal.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskAction.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskResult.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskFeedback.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionResult.dir/all
@@ -10102,9 +10102,6 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: navigation_2d/nav2d_karto/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionFeedback.dir/all
@@ -10112,6 +10109,9 @@ frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_genera
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_Frontier.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionGoal.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskAction.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskResult.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskFeedback.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_lisp.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionResult.dir/all
@@ -10283,9 +10283,6 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploratio
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: navigation_2d/nav2d_karto/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionFeedback.dir/all
@@ -10293,6 +10290,9 @@ frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_genera
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_Frontier.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionGoal.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskAction.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskResult.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskFeedback.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_nodejs.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionResult.dir/all
@@ -10586,9 +10586,6 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploratio
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: navigation_2d/nav2d_karto/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionFeedback.dir/all
@@ -10596,6 +10593,9 @@ frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_genera
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_Frontier.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionGoal.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskAction.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskResult.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskFeedback.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_eus.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionResult.dir/all
@@ -10663,9 +10663,6 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/geometry_tools_tests
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: navigation_2d/nav2d_karto/CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionFeedback.dir/all
@@ -10673,6 +10670,9 @@ frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_genera
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_Frontier.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionGoal.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskAction.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskResult.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskFeedback.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_py.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/_frontier_exploration_generate_messages_check_deps_ExploreTaskActionResult.dir/all
@@ -10870,23 +10870,6 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/run_tests_frontier_e
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration/CMakeFiles/_catkin_empty_exported_target.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_eus.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_cpp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_lisp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_nodejs.dir/all
@@ -10959,6 +10942,23 @@ frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: fr
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_server/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration_generate_messages_cpp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration/CMakeFiles/_catkin_empty_exported_target.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/all: frontier_exploration/exploration_msgs/CMakeFiles/exploration_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/build.make frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/depend
 	$(MAKE) -f frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/build.make frontier_exploration/frontier_exploration/CMakeFiles/frontier_plugin.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jess/challenge_ws/build/CMakeFiles --progress-num=42 "Built target frontier_plugin"
@@ -11220,8 +11220,8 @@ clean: frontier_exploration/frontier_exploration/CMakeFiles/frontier_exploration
 # Target rules for target frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir
 
 # All Build rule for target.
-frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/all: CMakeFiles/tests.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/frontier_search_tests.dir/all
+frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/all: CMakeFiles/tests.dir/all
 frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/all: frontier_exploration/frontier_exploration/CMakeFiles/clean_test_results_frontier_exploration.dir/all
 	$(MAKE) -f frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/build.make frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/depend
 	$(MAKE) -f frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/build.make frontier_exploration/frontier_exploration/CMakeFiles/_run_tests_frontier_exploration_gtest_frontier_search_tests.dir/build

@@ -10,19 +10,24 @@ import numpy as np
 from std_msgs.msg import String
 from std_msgs.msg import Int32
 from sensor_msgs.msg import Image
+from geometry_msgs.msg import Vector3
+
+# from geometry_msgs.msg import Twist
 
 #Define Class:
 class Camera:
   
   def __init__(self):
     rospy.init_node('opencv_camera', anonymous=True)
-    self.pub = rospy.Publisher("camera/detect_ball", Image, queue_size=10)
+    self.pub = rospy.Publisher("/camera/detect_ball", Vector3, queue_size=1)
+    # self.pub_img = rospy.Publisher("/camera/image/raw", Image, queue_size=1)
     self.bridge = CvBridge()
     rospy.loginfo("Camera was initialized")
     self.start = time.time()
+
     #range definition:
     self.yellow_range = [(25, 50, 50), (32, 255, 255)]
-    
+     
 
   def color_circle_detector(self, cv_image):
     # timer count and font:
@@ -48,26 +53,35 @@ class Camera:
       aux1, aux2 = cv2.minEnclosingCircle(contours_poly[index])
       centers.append(aux1)
       radius.append(aux2)
-      if(len(contours_poly[index]) > 10):
+      if(len(contours_poly[index]) > 7):
         #identify the sphere and send a message the was detect the sphere:
         cv2.circle(cv2_frame, (int(centers[index][0]), int(centers[index][1])), int(radius[index]), (150, 20, 255), 6)
         cv2.putText(cv2_frame, 'TARGET WAS DETECTED!!', (400,150), font, 2, (50, 50, 255), 5)
 
+        coordinates = self.obj_coordinate(cnt_yellow)
+        coordinates[1] = self.distance_to_camera(coordinates[2])
+        cv2.circle(img_rgb, (int(centers[index][0]), int(centers[index][1])), int(radius[index]), (255, 255, 0), 2)
+
     #merge the info about time into frame:
     cv2.putText(cv2_frame, str(timer) + 's', (20, 60), font, 2, (226, 43, 138), 5)
     cv2.putText(cv2_frame, str(time.ctime()), (10, 700), font, 2, (226, 43, 138), 6)
-
     #convert the image to ros and publish the image:
     ros_frame = self.bridge.cv2_to_imgmsg(cv2_frame, "bgr8")
-    self.pub.publish(ros_frame)
+    self.pub_img.publish(ros_frame)
+
+    self.pub.publish(coordinates[0], coordinates[1], coordinates[2])
 
   def listener(self):
     #subscribe:
     rospy.Subscriber('/diff/camera_top/image_raw', Image, self.color_circle_detector)
-
     #keeping python until node stopped:
     rospy.spin()
 
+  def show_image(self, img):
+    cv2.namedWindow("Image Window", 1)
+    cv2.imshow("Image Window", hsv)
+    cv2.waitKey(3)
+    
 #main function:
 if __name__ == "__main__":
   try:

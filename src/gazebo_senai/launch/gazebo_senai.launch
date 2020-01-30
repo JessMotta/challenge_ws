@@ -11,6 +11,7 @@
   <arg name="laser_enabled" default="false"/>
   <arg name="kinect_enabled" default="false"/>
   <arg name="urdf_extras" default="$(find gazebo_senai)/urdf/vlp_16.urdf.xacro"/>
+  <arg name="config_extras" default="$(find gazebo_senai)/config/custom_localization.yaml"/>
 
   <!-- <arg name="robot_model"   default="$(find learnrobotics)/model/urdf/robot.xacro"/> -->
 
@@ -35,19 +36,4 @@
     <arg name="urdf_extras" value="$(arg urdf_extras)"/>
 
   </include>
-
-  
-  
-  <!-- Load the URDF into the ROS Parameter Server -->
-  <!-- <param name="robot_description" command="$(find xacro)/xacro $(arg model)"/> -->
-
-  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
-  <!-- <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-    args="-z 0.0
-          -unpause
-          -urdf
-          -model /
-          -param robot_description"/> -->
-
-
 </launch>

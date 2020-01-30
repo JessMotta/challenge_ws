@@ -6,6 +6,8 @@ Panels:
       Expanded:
         - /Global Options1
         - /TF1/Frames1
+        - /VLP-161
+        - /Image1
         - /LaserScan1
         - /Map1/Status1
       Splitter Ratio: 0.5166666507720947
@@ -273,7 +275,7 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.009999999776482582
+      Size (m): 0.10000000149011612
       Style: Flat Squares
       Topic: /velodyne_points
       Unreliable: false
@@ -360,25 +362,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 19.03933334350586
+      Distance: 58.19728469848633
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: 8.110713005065918
+        Y: 11.302949905395508
+        Z: -6.691363523714244e-6
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.37039902806282043
+      Pitch: 0.06539850682020187
       Target Frame: <Fixed Frame>
       Value: XYOrbit (rviz)
-      Yaw: 5.543616771697998
+      Yaw: 4.258614540100098
     Saved: ~
 Window Geometry:
   Displays:

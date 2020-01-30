@@ -6,11 +6,6 @@
 	<param name="use_sim_time" value="true" />
 	<rosparam file="$(find gazebo_senai)/param/ros.yaml"/>
 
-	<!-- Start Stage simulator with a given environment -->
-	<!-- <node name="Stage" pkg="stage_ros" type="stageros" args="$(find gazebo_senai)/world/tutorial.world">
-		<param name="base_watchdog_timeout" value="0" />
-	</node> -->
-
 	<!-- Start the Operator to control the simulated robot -->
 	<!-- <node name="Operator" pkg="nav2d_operator" type="operator" >
 		<remap from="scan" to="base_scan"/>
@@ -96,4 +91,14 @@
       concurrency_level: 0
     </rosparam>
   </node>
+
+  <!-- - Run Move Base   -->
+  <include file="$(find husky_navigation)/launch/move_base.launch">
+    <arg name="no_static_map" value="true"/>
+  </include>
+
+  <node pkg="scripts" name="detectObject" type="detectObject.py" output="screen"> </node>
+
+  <!-- <node pkg="scripts" name="camera" type="camera.py" output="screen"> </node> -->
+
 </launch>
