@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/jess/challenge_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/jess/challenge_ws/src/frontier_exploration/exploration_server/include/**",
+        "/home/jess/challenge_ws/src/frontier_exploration/frontier_exploration/include/**",
+        "/home/jess/challenge_ws/src/navigation_2d/nav2d_exploration/include/**",
+        "/home/jess/challenge_ws/src/navigation_2d/nav2d_karto/include/**",
+        "/home/jess/challenge_ws/src/navigation_2d/nav2d_localizer/include/**",
+        "/home/jess/challenge_ws/src/navigation_2d/nav2d_navigator/include/**",
+        "/home/jess/challenge_ws/src/navigation_2d/nav2d_operator/include/**",
+        "/home/jess/challenge_ws/src/pointcloud_to_laserscan/include/**",
+        "/home/jess/challenge_ws/src/frontier_exploration/polygon_layer/include/**",
+        "/home/jess/challenge_ws/src/velodyne_simulator/velodyne_gazebo_plugins/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

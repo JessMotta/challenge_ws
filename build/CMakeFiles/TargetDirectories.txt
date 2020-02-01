@@ -126,13 +126,6 @@
 /home/jess/challenge_ws/build/velodyne_simulator/velodyne_simulator/CMakeFiles/install/local.dir
 /home/jess/challenge_ws/build/velodyne_simulator/velodyne_simulator/CMakeFiles/rebuild_cache.dir
 /home/jess/challenge_ws/build/velodyne_simulator/velodyne_simulator/CMakeFiles/install.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/install/strip.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/edit_cache.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/list_install_components.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/test.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/install/local.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/rebuild_cache.dir
-/home/jess/challenge_ws/build/scripts/CMakeFiles/install.dir
 /home/jess/challenge_ws/build/navigation_2d/nav2d_msgs/CMakeFiles/install/local.dir
 /home/jess/challenge_ws/build/navigation_2d/nav2d_msgs/CMakeFiles/install.dir
 /home/jess/challenge_ws/build/navigation_2d/nav2d_msgs/CMakeFiles/list_install_components.dir
