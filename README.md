@@ -47,7 +47,7 @@ version) this will be installed on Ros folder:
 Attencion: This map was made by Azihel, Pedro Paulo and Jean Paulo.
 That's their Gits:
 
-* [Azihel](https://github.com/azihell)
+* [Azihel Freitas](https://github.com/azihell)
 
 * [Jean Paulo](https://github.com/jeanps95)
 
