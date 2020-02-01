@@ -68,11 +68,12 @@ That's their Gits:
 
 # **Order to Execute the Launchs:**
 
-* `$ roslaunch gazebo_senai gazebo.launch`
+* `$ roslaunch gazebo_senai gazebo_husky.launch`
 
-* `$ roslaunch gazebo_senai rviz.launch`
+* `$ roslaunch gazebo_senai rviz_husky.launch`
 
-* `$ roslaunch gazebo_senai exploration.launch`
+* `$ rosrun gazebo_senai mission.py`
+
 
 
 
