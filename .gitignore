@@ -1,0 +1,6 @@
+./build
+./devel
+
+*.json
+*.Rhistory
+*.catkin_workspace

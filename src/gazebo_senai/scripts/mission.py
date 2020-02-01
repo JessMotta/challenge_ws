@@ -48,6 +48,7 @@ class Camera:
     self.pub_move_to_goal = rospy.Publisher("/move_base_simple/goal", PoseStamped, queue_size=1)
     self.msg_move_to_goal = PoseStamped()
     self.flag = True
+    self.kill = True
     self.camera_info = CameraInfo()
 
     self.start_map = rospy.Publisher("/GetFirstMap/goal", GetFirstMapActionGoal, queue_size=1)
@@ -102,9 +103,16 @@ class Camera:
       radius.append(aux2)
       ## if the camera find the sphere ##
       if(len(contours_poly[index]) > 10):
+        # kill the 2D navigation
+        # os.system("rosnode kill /Operator")
         # draw a circle in sphere and put a warning message
-        cv2.circle(cv2_frame, (int(centers[index][0]), int(centers[index][1])), int(radius[index]), (0, 0, 255), 5) 
-        cv2.putText(cv2_frame, 'TARGET WAS DETECTED!', (20, 130), font, 2, (0, 0, 255), 5)
+        cv2.circle(cv2_frame, (int(centers[index][0]), int(centers[index][1])), int(radius[index]), (150, 20, 255),6) 
+        cv2.putText(cv2_frame, 'TARGET WAS DETECTED!', (400, 150), font, 2, (50, 50, 255), 5)
+        self.cancel_explore.publish()
+        if self.kill == True:
+          os.system("rosnode kill /Operator")
+          # time.sleep(1)
+          self.kill == False  
         # controller actions
         linear_vel =  0 #self.linear_vel_control.calculate(1, 174, radius[0])
         angular_vel = self.angular_vel_control.calculate(1, 640, centers[0][0])
@@ -118,8 +126,8 @@ class Camera:
         self.goal_move_base(centers[0][0], radius[0])
         print('##################################')
     # merge timer info to frame
-    cv2.putText(cv2_frame, str(timer) + 's', (20, 60), font, 2, (50, 255, 50), 5) 
-    cv2.putText(cv2_frame, str(time.ctime()), (10, 700), font, 2, (50, 255, 50), 6)
+    cv2.putText(cv2_frame, str(timer) + 's', (20, 60), font, 2, (226, 43, 138), 5) 
+    cv2.putText(cv2_frame, str(time.ctime()), (10, 700), font, 2, (226, 43, 138), 6)
 
     # convert img to ros and pub image in a topic
     ros_frame = self.bridge.cv2_to_imgmsg(cv2_frame, "bgr8")
@@ -151,14 +159,11 @@ class Camera:
       x_move_base = distance
     else:
       x_move_base = math.sqrt(distance**2 - y_move_base**2)
-    self.msg_move_to_goal.pose.position.x = x_move_base -3
+    self.msg_move_to_goal.pose.position.x = x_move_base - 3
     self.msg_move_to_goal.pose.position.y = y_move_base
     self.msg_move_to_goal.pose.orientation.w = 1
     self.msg_move_to_goal.header.frame_id = "kinect_camera"
     if self.flag and (distance > 4):
-      self.cancel_explore.publish()
-      os.system("rosnode kill /Operator")
-      time.sleep(1)  
       self.pub_move_to_goal.publish(self.msg_move_to_goal)
       self.flag = False
       self.timer_flag = time.time()
