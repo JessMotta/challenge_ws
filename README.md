@@ -45,12 +45,19 @@ version) this will be installed on Ros folder:
 
 ![cimatec_gazebo](https://user-images.githubusercontent.com/30941796/73447951-95e3f780-433e-11ea-8082-63e399cf9e94.png)
 Attencion: This map was made by Azihel, Pedro Paulo and Jean Paulo.
+That's their Gits:
 
-Make this changes:
+* [Azihel](https://github.com/azihell)
 
-* Go to:
+* [Jean Paulo](https://github.com/jeanps95)
+
+* [Pedro Paulo](https://github.com/PPVTecchio)
+
+
+**Make this changes:**
+
 <ol>
-  <li>folder navigation_2d </li> 
+  <li> Open folder navigation_2d </li> 
   <li>nav2d_karto </li> 
   <li>OpenKarto </li> 
   <li>source </li> 
