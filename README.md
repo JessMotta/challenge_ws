@@ -1,6 +1,6 @@
 # **Project** :robot: :wolf: :dart: :octocat:
 
-This project was make to autonomous navigation for Husky Clearpath simulated in Gazebo to found an yellow ball.
+This project was make to autonomous navigation for Husky Clearpath simulated in Gazebo to found a yellow ball.
 
 
 
@@ -70,7 +70,13 @@ That's their Gits:
 
 * `$ roslaunch gazebo_senai gazebo_husky.launch`
 
+* You need insert a yellow ball in Gazebo before continue the next steps.
+
+
 * `$ roslaunch gazebo_senai rviz_husky.launch`
 
+
 * `$ rosrun gazebo_senai mission.py`
+
+* After this step you'll see the robot move and search for a yellow ball, after detected her the robot will create a path to go to her.
 
