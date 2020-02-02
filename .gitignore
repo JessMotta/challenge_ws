@@ -1,6 +1,6 @@
-./build
-./devel
+/build
+/devel
 
-*.json
-*.Rhistory
-*.catkin_workspace
+.json
+.Rhistory
+.catkin_workspace
