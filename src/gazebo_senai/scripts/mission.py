@@ -102,9 +102,8 @@ class Camera:
       centers.append(aux1)
       radius.append(aux2)
       ## if the camera find the sphere ##
-      if(len(contours_poly[index]) > 10):
+      if(len(contours_poly[index]) > 7):
         # kill the 2D navigation
-        # os.system("rosnode kill /Operator")
         # draw a circle in sphere and put a warning message
         cv2.circle(cv2_frame, (int(centers[index][0]), int(centers[index][1])), int(radius[index]), (150, 20, 255),6) 
         cv2.putText(cv2_frame, 'TARGET WAS DETECTED!', (400, 150), font, 2, (50, 50, 255), 5)
@@ -116,13 +115,10 @@ class Camera:
         # controller actions
         linear_vel =  0 #self.linear_vel_control.calculate(1, 174, radius[0])
         angular_vel = self.angular_vel_control.calculate(1, 640, centers[0][0])
-        #self.cmd_vel_pub(linear_vel, angular_vel, cv2_frame) 
         # print info on terminal
         print('CONTROL INFO :')
         print('radius: ' + str(radius[0]))
         print('center x position: ' + str(centers[0][0]))
-        #print('linear vel: ' + str(linear_vel))                
-        #print('angular vel: ' + str(angular_vel))
         self.goal_move_base(centers[0][0], radius[0])
         print('##################################')
     # merge timer info to frame
