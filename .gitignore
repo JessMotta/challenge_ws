@@ -1,6 +1,5 @@
-/build
 /devel
-
-.json
-.Rhistory
+/build
+.vscode
 .catkin_workspace
+.Rhistory

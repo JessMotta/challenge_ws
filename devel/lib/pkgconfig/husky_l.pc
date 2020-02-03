@@ -1,8 +1,0 @@
-prefix=/home/jess/challenge_ws/devel
-
-Name: husky_l
-Description: Description of husky_l
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
