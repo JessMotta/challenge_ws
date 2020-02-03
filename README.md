@@ -8,7 +8,7 @@ This project was make to autonomous navigation for Husky Clearpath simulated in 
 This requirements are the minimal to execute this package:
 
 * Python 2.7
-* Ros Melodic
+* [Ros Melodic](http://wiki.ros.org/melodic/Installation)
 * Gazebo 9
 * OpenCv 3.2
 
