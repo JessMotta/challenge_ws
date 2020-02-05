@@ -1,5 +1,5 @@
-# .Rhistory
-# .vscode
-# /build
-# /devel
-# .catkin_workspace
+.Rhistory
+.vscode
+/build
+/devel
+.catkin_workspace
